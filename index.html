@@ -26,18 +26,18 @@
             <i class="fa-brands fa-accusoft logo"></i>
         </figure>
         <nav aria-label="Main Menu">
-            <ul role="menubar">
+            <ul role="menubar" aria-label="Main Menu">
                 <li role="none">
                     <a href="#" class="nav-link text-white" role="menuitem">Home</a>
                 </li>
                 <li role="none">
-                    <a href="#" class="nav-link text-white" role="menuitem">About</a>
+                    <a href="#blog-about" class="nav-link text-white" role="menuitem">About</a>
                 </li>
                 <li role="none">
-                    <a href="#" class="nav-link text-white" role="menuitem">Archives</a>
+                    <a href="#archives" class="nav-link text-white" role="menuitem">Archives</a>
                 </li>
                 <li role="none">
-                    <a href="#" class="nav-link text-white" role="menuitem">Blog Posts</a>
+                    <a href="#blog-posts" class="nav-link text-white" role="menuitem">Blog Posts</a>
                 </li>
                 <li role="none">
                     <a href="#" class="nav-link text-white" role="menuitem">Contact</a>
@@ -107,7 +107,144 @@
             </div>
         </section>
         <!-- about blog section ends -->
+
+        <!-- archives section starts -->
+        <section id="archives" class="center-text">
+            <h2 class="section-heading">Archives</h2>
+            <div class="archives-container">
+                <ul class="archives-container-lists">
+                    <li class="archives-container-list">
+                        <img class="archives-img" src="./assets/images/keyboard1.jpg" alt="keyboard1">
+                    </li>
+                    <li class="archives-container-list">
+                        <img class="archives-img" src="./assets/images/monitor_whith_code.jpg" alt="monitor_whith_code">
+                    </li>
+                    <li class="archives-container-list">
+                        <img class="archives-img" src="./assets/images/keyboard.jpg" alt="keyboard">
+                    </li>
+                    <li class="archives-container-list">
+                        <img class="archives-img" src="./assets/images/monitor.jpg" alt="monitor">
+                    </li>
+                    <li class="archives-container-list">
+                        <img class="archives-img" src="./assets/images/image5.jpg" alt="image5">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- archives section ends -->
+
+        <!-- blog-posts section starts -->
+        <section id="blog-posts" class="center-text">
+            <h2 class="section-heading">Blog Posts</h2>
+            <div class="blog-post">
+                <aside class="blog-post-aside">
+                    <img src="./assets/images/cat.jpg" alt="cat" class="blog-post-img">
+                </aside>
+                <article class="blog-content">
+                    <h2 class="blog-heading">Blog 1</h2>
+                    <h3 class="blog-sub-heading">Sub heading</h3>
+                    <p class="blog-desc">
+                        Voluptua tempor no rebum kasd invidunt. Diam et ea 
+                        justo est no justo takimata eos. Voluptua et 
+                        takimata duo ut sanctus rebum sed consetetur. Et.
+                    </p>
+                    <button type="submit" class="blog-btn btn">
+                        Learn More
+                    </button>
+                </article>
+            </div>
+            <div class="blog-post">
+                <aside class="blog-post-aside">
+                    <img src="./assets/images/cat.jpg" alt="cat" class="blog-post-img">
+                </aside>
+                <article class="blog-content">
+                    <h2 class="blog-heading">Blog 1</h2>
+                    <h3 class="blog-sub-heading">Sub heading</h3>
+                    <p class="blog-desc">
+                        Voluptua tempor no rebum kasd invidunt. Diam et ea
+                        justo est no justo takimata eos. Voluptua et
+                        takimata duo ut sanctus rebum sed consetetur. Et.
+                    </p>
+                    <button type="submit" class="blog-btn btn">
+                        Learn More
+                    </button>
+                </article>
+            </div>
+            <div class="blog-post">
+                <aside class="blog-post-aside">
+                    <img src="./assets/images/cat.jpg" alt="cat" class="blog-post-img">
+                </aside>
+                <article class="blog-content">
+                    <h2 class="blog-heading">Blog 1</h2>
+                    <h3 class="blog-sub-heading">Sub heading</h3>
+                    <p class="blog-desc">
+                        Voluptua tempor no rebum kasd invidunt. Diam et ea
+                        justo est no justo takimata eos. Voluptua et
+                        takimata duo ut sanctus rebum sed consetetur. Et.
+                    </p>
+                    <button type="submit" class="blog-btn btn">
+                        Learn More
+                    </button>
+                </article>
+            </div>
+        </section>
+        <!-- blog-posts section ends -->
+
+        <!-- contact section starts -->
+        <section id="contact-section" class="center-text">
+            <h2 class="section-heading text-white">Contact Me</h2>
+            <form action="" id="contact-form" class="text-white">
+                <div class="form-control">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required autocomplete="name">
+                </div>
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required autocomplete="email">
+                </div>
+                <div class="form-control">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <div class="form-control form-btn-field">
+                    <button type="submit" class="btn contact-button">Submit</button>
+                </div>
+            </form>
+        </section>
+        <!-- contact section ends -->
     </main>
     <!-- main ends -->
+
+    <!-- footer starts -->
+    <footer>
+        <p class="copyright-text">
+            Copyright &copy; by Jannat. All rights reserved by Jannat.
+        </p>
+        <nav aria-label="Footer Menu">
+            <ul role="menubar2" id="menubar2" aria-label="Footer Menu">
+                <li role="none">
+                    <a href="https://www.facebook.com/jannat.ferdoush.96" target="blank" class="nav-link text-white" role="menuitem">
+                        <i class="fab fa-facebook footer-icon"></i>
+                    </a>
+                </li>
+                <li role="none">
+                    <a href="https://join.skype.com/invite/weWLbxOHJr8S" target="blank" class="nav-link text-white" role="menuitem">
+                        <i class="fab fa-skype footer-icon"></i>
+                    </a>
+                </li>
+                <li role="none">
+                    <a href="https://github.com/9Jannat8" target="blank" class="nav-link text-white" role="menuitem">
+                        <i class="fab fa-github footer-icon"></i>
+                    </a>
+                </li>
+                <li role="none">
+                    <a href="https://www.linkedin.com/in/jannatul-ferdoush-0b1567175" target="blank" class="nav-link text-white" role="menuitem">
+                        <i class="fab fa-linkedin footer-icon"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <!-- footer ends -->
 </body>
 </html>
