@@ -25,7 +25,8 @@
             <!-- <i class="fa-solid fa-marker logo"></i> -->
             <i class="fa-brands fa-accusoft logo"></i>
         </figure>
-        <nav aria-label="Main Menu">
+
+        <nav aria-label="Main Menu" id="menu" class="hidden">
             <ul role="menubar" aria-label="Main Menu">
                 <li role="none">
                     <a href="#" class="nav-link text-white" role="menuitem">Home</a>
@@ -40,10 +41,11 @@
                     <a href="#blog-posts" class="nav-link text-white" role="menuitem">Blog Posts</a>
                 </li>
                 <li role="none">
-                    <a href="#" class="nav-link text-white" role="menuitem">Contact</a>
+                    <a href="#contact-section" class="nav-link text-white" role="menuitem">Contact</a>
                 </li>
             </ul>
         </nav>
+        <i class="fas fa-bars fa-4x" id="menu-icon"></i>
     </header>
     <!-- header ends -->
 
@@ -135,18 +137,16 @@
 
         <!-- blog-posts section starts -->
         <section id="blog-posts" class="center-text">
-            <h2 class="section-heading">Blog Posts</h2>
+            <h2 class="section-heading blog-post-heading">Blog Posts</h2>
             <div class="blog-post">
                 <aside class="blog-post-aside">
-                    <img src="./assets/images/cat.jpg" alt="cat" class="blog-post-img">
+                    <img src="./assets/images/coffee.jpg" alt="coffee" class="blog-post-img">
                 </aside>
                 <article class="blog-content">
                     <h2 class="blog-heading">Blog 1</h2>
                     <h3 class="blog-sub-heading">Sub heading</h3>
                     <p class="blog-desc">
-                        Voluptua tempor no rebum kasd invidunt. Diam et ea 
-                        justo est no justo takimata eos. Voluptua et 
-                        takimata duo ut sanctus rebum sed consetetur. Et.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptates provident quia incidunt explicabo, ullam nisi? Eum, saepe adipisci aut illo accusamus molestiae quis consequuntur?
                     </p>
                     <button type="submit" class="blog-btn btn">
                         Learn More
@@ -155,7 +155,7 @@
             </div>
             <div class="blog-post">
                 <aside class="blog-post-aside">
-                    <img src="./assets/images/cat.jpg" alt="cat" class="blog-post-img">
+                    <img src="./assets/images/coffee.jpg" alt="coffee" class="blog-post-img">
                 </aside>
                 <article class="blog-content">
                     <h2 class="blog-heading">Blog 1</h2>
@@ -172,7 +172,7 @@
             </div>
             <div class="blog-post">
                 <aside class="blog-post-aside">
-                    <img src="./assets/images/cat.jpg" alt="cat" class="blog-post-img">
+                    <img src="./assets/images/coffee.jpg" alt="coffee" class="blog-post-img">
                 </aside>
                 <article class="blog-content">
                     <h2 class="blog-heading">Blog 1</h2>
@@ -246,5 +246,7 @@
         </nav>
     </footer>
     <!-- footer ends -->
+
+    <script src="./assets/scripts/index.js"></script>
 </body>
 </html>
